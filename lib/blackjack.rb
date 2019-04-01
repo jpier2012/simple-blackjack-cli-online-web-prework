@@ -1,3 +1,5 @@
+require 'pry'
+
 card_total = 0
 
 def welcome
