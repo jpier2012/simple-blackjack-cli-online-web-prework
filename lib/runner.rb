@@ -9,6 +9,8 @@ def runner
     card_total
     if card_total > 21
       end_game
+    elsif card_total == 21
+      puts "You win!!"
     end
   end
 end
