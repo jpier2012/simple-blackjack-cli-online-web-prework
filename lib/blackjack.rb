@@ -1,4 +1,4 @@
-def card_total
+card_total = 0
 
 def welcome
   # code #welcome here
