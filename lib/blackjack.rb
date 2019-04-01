@@ -46,6 +46,8 @@ def hit? card_total
     card_total
   elsif input == "h"
     card_total = card_total + deal_card
+    puts card_total
+    card_total
   elsif input == "exit"
     exit
   else
