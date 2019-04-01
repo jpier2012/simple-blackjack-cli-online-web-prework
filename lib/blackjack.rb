@@ -37,8 +37,6 @@ def initial_round
   card_total
 end
 
-binding.pry
-
 def hit? card_total
   # code hit? here
   prompt_user
