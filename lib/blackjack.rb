@@ -1,3 +1,5 @@
+def card_total
+
 def welcome
   # code #welcome here
   puts "Welcome to the Blackjack Table"
