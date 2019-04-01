@@ -39,11 +39,19 @@ end
 
 def hit?
   # code hit? here
-  gets "Type 'h' to hit or 's' to stay"
+  prompt_user
+  input = get_user_input
+  if input == "h"
+    card_total += deal_card
+  elsif input == "s"
+    card_total
+  else
+    invalid_command
 end
 
 def invalid_command
   # code invalid_command here
+  puts "Please enter a valid command"
 end
 
 #####################################################
