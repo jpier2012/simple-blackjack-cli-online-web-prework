@@ -1,5 +1,3 @@
-require 'pry'
-
 card_total = 0
 
 def welcome
@@ -55,8 +53,6 @@ def invalid_command
   # code invalid_command here
   puts "Please enter a valid command"
 end
-
-binding.pry
 
 #####################################################
 # get every test to pass before coding runner below #
