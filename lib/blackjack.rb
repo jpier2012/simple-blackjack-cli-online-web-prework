@@ -34,8 +34,10 @@ end
 
 def initial_round
   # code #initial_round here
-  card_total += deal_card
-  card_total += deal_card
+  var = deal_card
+  card_total += var
+  var = deal_card
+  card_total += var
   display_card_total card_total
 end
 
