@@ -1,5 +1,3 @@
-card_total = 0
-
 def welcome
   # code #welcome here
   puts "Welcome to the Blackjack Table"
